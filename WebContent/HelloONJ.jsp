@@ -8,6 +8,6 @@
 <title>Hello JSP</title>
 </head>
 <body>
-	<h1>GIT TEST 123 </h1>
+	<h1> 오는정: 깃허브테스트 </h1>
 </body>
 </html>

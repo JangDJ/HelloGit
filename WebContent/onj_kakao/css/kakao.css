@@ -1,0 +1,100 @@
+/*/*전체 공통 내용 : 있는게 일반적이지만 html부분 복습이 충분하지 않아 없습니다. 복습하겠습니다 . */
+
+
+/*컨테이너 */
+#container {
+    width: 541px;
+    height: 300px;
+}
+
+/*헤더 */
+#header {
+    background-color: #FFFFFF;
+    width: 541px;
+    height: 120px;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+}
+
+
+#up_header {
+    width: 541px;
+    height: 30px;
+}
+
+/*헤더up*/
+
+/*와이파이위치조절*/
+#up_header #left {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+/*시간위치조절*/
+#up_header #mid {
+
+    position: absolute;
+    left: 200px;
+    top: 0px;
+
+}
+
+/*배터리잔량위치조절*/
+#up_header #right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+
+
+
+
+/*헤더down*/
+#down_header .friend {
+    float: left;
+}
+
+
+#down_header .menu {
+    float: right;
+}
+
+
+
+#header #down_header #line {
+    position: absolute;
+    top: 130px;
+}
+
+/*컨텐츠 */
+#content {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+/*하단*/
+#footer {
+    width: 541px;
+    height: 130px;
+    background-color: #F9F9FB;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+
+#footer .line {
+    position: absolute;
+    bottom: 98px;
+}
+
+#footer img {
+    padding: 26px;
+
+}

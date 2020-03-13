@@ -11,6 +11,8 @@
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	color: white;
+	text-decoration:none;
 }
 
 html, body {
@@ -57,8 +59,17 @@ html, body {
 
 #profile {
 	width: 100%;
-	height: 50px;
+	height: 70px;
 }
+
+#profile>a:first-child{
+	display:inline-block;
+}
+
+#profile>a>span{
+	display:inline-block;
+}
+
 
 #menu {
 	
@@ -110,14 +121,14 @@ html, body {
 			</ul>
 		</div>
 		<div id="content">
+
 			<div id="profile">
-				<a href="#"><img src="kbk_img/profile.png" /><span>김병관</span></a> <a
-					href="#"><img src="kbk_img/mu.png"/></a>
-
-
+				<a href="#"><img src="kbk_img/profile.png" /><span>김병관</span> </a>
+				<a href="#"><img src="kbk_img/mu.png" id="profMu" /></a>
 			</div>
+
 			<div id="menu">
-				<h2>  
+				<h2>
 					생일인친구<a href="#sub1">-</a>
 				</h2>
 				<ul id="sub1">
